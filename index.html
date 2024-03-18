@@ -60,8 +60,9 @@
                         <nav class="site-navigation d-flex justify-content-end align-items-center">
                             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
                                 <li class="current-menu-item"><a href="index.html">Home</a></li>
-                                <li><a href="#AboutUs">About us</a></li>
-                                <li><a href="#Causes">Causes</a></li>  
+                                <li><a href="index.html#Focus">Our Focus</a></li> 
+                                <li><a href="index.html#AboutUs">About Us</a></li>
+                                <li><a href="index.html#Causes">Causes</a></li>  
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav><!-- .site-navigation -->
@@ -99,7 +100,7 @@
 
                                 <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
                                     <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                                    <a href="#" class="btn orange-border">Read More</a>
+                                    <a href="#AboutUs" class="btn orange-border">Read More</a>
                                 </footer><!-- .entry-footer -->
                             </div><!-- .col -->
                         </div><!-- .row -->
@@ -124,14 +125,23 @@
         </div> -->
     </div><!-- .hero-slider -->
 
-    <div class="home-page-icon-boxes">
+    <div class="home-page-icon-boxes" id="Focus">
         <div class="container">
-            <div class="row">
+            <div class="row" style="margin-bottom: 24px;">
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="welcome-content">
+                        <header class="entry-header">
+                            <h2 class="entry-title" style="color: #000;">Our Focus</h2>
+                        </header><!-- .entry-header -->
+                    </div> 
+                </div>
+            </div>
+            <div class="row"> 
                 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box active">
                         <figure class="d-flex justify-content-center">
-                            <img src="images/hands-gray.png" alt="">
-                            <img src="images/hands-white.png" alt="">
+                            <img class="NovaWidth" src="images/icons/education_gray.png" alt="">
+                            <img class="NovaWidth" src="images/icons/education_white.png" alt="">
                         </figure>
 
                         <header class="entry-header">
@@ -147,8 +157,8 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box">
                         <figure class="d-flex justify-content-center">
-                            <img src="images/donation-gray.png" alt="">
-                            <img src="images/donation-white.png" alt="">
+                            <img class="NovaWidth" src="images/icons/health_gray.png" alt="">
+                            <img class="NovaWidth" src="images/icons/health_white.png" alt="">
                         </figure>
 
                         <header class="entry-header">
@@ -164,8 +174,8 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box">
                         <figure class="d-flex justify-content-center">
-                            <img src="images/charity-gray.png" alt="">
-                            <img src="images/charity-white.png" alt="">
+                            <img class="NovaWidth" src="images/icons/affordable_housing_gray.png" alt="">
+                            <img class="NovaWidth" src="images/icons/affordable_housing_white.png" alt="">
                         </figure>
 
                         <header class="entry-header">
@@ -173,7 +183,7 @@
                         </header>
 
                         <div class="entry-content">
-                            <p>We are committed to promoting affordable housing via innovative construction and sustainable development, ensuring underprivileged communities have access to safe, accessible homes.</p><br/>
+                            <p>We are committed to promoting affordable housing via innovative construction and sustainable development, ensuring underprivileged communities have access to safe, accessible homes. <br/></p>
                         </div>
                     </div>
                 </div>
@@ -400,7 +410,7 @@
         <div class="container">
             <div class="row"> 
 
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-12">
                     <div class="featured-cause">
                         <div class="section-heading">
                             <h2 class="entry-title">Upcoming Events</h2>
@@ -425,11 +435,12 @@
                                 </header><!-- .entry-header -->
 
                                 <div class="entry-content">
-                                    <p class="m-0">ISM Moshi, in collaboration with the Abranova Foundation, invites alumni to a special gathering celebrating our joint impact. Reconnect, network, and learn about our shared initiativess.</p>
+                                    <p class="m-0">ISM Moshi is excited to announce an upcoming event specially designed to welcome back our esteemed alumni. This is a fantastic opportunity for former students to reconnect with the community, reminisce about their experiences, and see how the campus has grown and evolved. Registration is now open, and we encourage all alumni to sign up to be part of this memorable occasion.<br/> Don't miss out on the chance to rekindle old friendships, network with fellow alumni, and celebrate your shared legacy at ISM Moshi. 
+                                        Register today and join us for an event full of nostalgia, celebration, and camaraderie!</p>
                                 </div><!-- .entry-content -->
 
-                                <div class="entry-footer mt-5">
-                                    <a href="#" class="btn gradient-bg mr-2">Read More</a>
+                                <div class="entry-footer mt-4">
+                                    <a href="#" class="btn gradient-bg mr-2">Register</a>
                                 </div><!-- .entry-footer -->
                             </div><!-- .cause-content-wrap -->
                             
@@ -437,11 +448,11 @@
                     </div><!-- .featured-cause -->
                 </div><!-- .col -->
 
-                <div class="col-12 col-lg-6">
+                <!-- <div class="col-12 col-lg-6">
                     <div class="upcoming-events">
                         <div class="section-heading">
                             <h2 class="entry-title">Previous Events</h2>
-                        </div><!-- .section-heading -->
+                        </div> 
 
                         <div class="event-wrap d-flex flex-wrap justify-content-between">
                             <figure class="m-0">
@@ -454,22 +465,22 @@
 
                                     <div class="posted-date">
                                         <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
+                                    </div>
 
                                     <div class="cats-links">
                                         <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
+                                    </div> 
+                                </header> 
 
                                 <div class="entry-content">
                                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                </div><!-- .entry-content -->
+                                </div> 
 
                                 <div class="entry-footer">
                                     <a href="#">Read More</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .event-content-wrap -->
-                        </div><!-- .event-wrap -->
+                                </div> 
+                            </div> 
+                        </div> 
 
                         <div class="event-wrap d-flex flex-wrap justify-content-between">
                             <figure class="m-0">
@@ -482,22 +493,22 @@
 
                                     <div class="posted-date">
                                         <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
+                                    </div> 
 
                                     <div class="cats-links">
                                         <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
+                                    </div> 
+                                </header> 
 
                                 <div class="entry-content">
                                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                </div><!-- .entry-content -->
+                                </div> 
 
                                 <div class="entry-footer">
                                     <a href="#">Read More</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .event-content-wrap -->
-                        </div><!-- .event-wrap -->
+                                </div>
+                            </div> 
+                        </div> 
 
                         <div class="event-wrap d-flex flex-wrap justify-content-between">
                             <figure class="m-0">
@@ -510,27 +521,27 @@
 
                                     <div class="posted-date">
                                         <a href="#">Aug 25, 2018 </a>
-                                    </div><!-- .posted-date -->
+                                    </div>
 
                                     <div class="cats-links">
                                         <a href="#">Ball Room New York</a>
-                                    </div><!-- .cats-links -->
-                                </header><!-- .entry-header -->
+                                    </div> 
+                                </header> 
 
                                 <div class="entry-content">
                                     <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
-                                </div><!-- .entry-content -->
+                                </div> 
 
                                 <div class="entry-footer">
                                     <a href="#">Read More</a>
-                                </div><!-- .entry-footer -->
-                            </div><!-- .event-content-wrap -->
-                        </div><!-- .event-wrap -->
-                    </div><!-- .upcoming-events -->
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .home-page-events -->
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>  -->
+            </div> 
+        </div> 
+    </div> 
 
     <footer class="site-footer">
         <div class="footer-widgets">

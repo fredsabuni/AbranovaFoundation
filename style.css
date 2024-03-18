@@ -2131,3 +2131,8 @@ ul.tabs-nav .tab-nav.active {
     background: #131212;
     text-align: center;
 }
+
+/* Custom Style */
+.NovaWidth {
+    max-width: 70px;
+}
