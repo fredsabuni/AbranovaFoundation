@@ -2136,3 +2136,16 @@ ul.tabs-nav .tab-nav.active {
 .NovaWidth {
     max-width: 70px;
 }
+
+.NovaMargin {
+    /* Styles for .NovaMargin go here */
+    padding-bottom: 0px;  
+}
+
+@media (max-width: 768px) {
+    .NovaMargin {
+        /* Styles for .NovaMargin go here */
+        padding-bottom: 100px;  
+    }
+}
+  
